@@ -1,0 +1,25 @@
+/* Animations CSS */
+
+/* Define the quarter spin keyframes for the icon */
+@keyframes quarter-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(90deg); }
+}
+
+/* Hover effect for the icon inside Generate button */
+#GenerateButton:hover i {
+    animation: quarter-spin 0.5s ease forwards;
+}
+
+/* Animation to slide Generate button left */
+.slide-left {
+    transform: translateX(-120px) !important; /* Slide 200px to the left */
+    transition: transform 1s ease; /* Smooth transform transition */
+}
+
+/* Fade-in effect and slide Check Price button to the right */
+.slide-right {
+    opacity: 1 !important; /* Ensure no other styles override it */
+    transform: translateX(120px) !important; /* Slide 200px to the right */
+    transition: opacity 1s ease, transform 1s ease; /* Smooth fade-in and slide transition */
+}

@@ -1,0 +1,42 @@
+/* Styles for the Generate Button */
+#GenerateButton {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    width: 200px; /* Fixed width */
+    padding: 15px 0; /* Adjust padding for consistent height */
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    position: absolute; /* Absolute positioning */
+
+    top: 0; /* Position relative to the container */
+    z-index: 2; /* Higher z-index to ensure it's on top */
+}
+
+/* Styles for the Check Price Button */
+#CheckPriceButton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 200px; /* Fixed width */
+    padding: 15px 0; /* Adjust padding for consistent height */
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    opacity: 0; /* Initially hidden */
+    position: absolute; /* Absolute positioning */
+   
+    top: 1; /* Position relative to the container */
+    transform: translateX(-50%); /* Center the button initially */
+    z-index: 1; /* Higher z-index to ensure it's on top */
+}
+
+/* Hidden class to hide elements */
+.hidden {
+    display: none;
+}
