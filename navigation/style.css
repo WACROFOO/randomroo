@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.centered-button {
+    text-align: center; /* Center the button text */
+}
+
+/* Navbar Styles */
+.navbar-inverse {
+    background-color: #131921; /* Amazon navy blue */
+    border-color: #131921;
+    border-radius: 0; /* Remove corner radius */
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ff9900; /* Amazon vibrant orange */
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #ffffff; /* Hover color for the brand */
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff; /* White color for nav links */
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #ff9900; /* Amazon vibrant orange on hover */
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #232f3e; /* Slightly darker shade for active links */
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #232f3e; /* Dropdown menu background */
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff; /* White color for dropdown links */
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+    background-color: #131921; /* Amazon navy blue on hover */
+    color: #ff9900; /* Amazon vibrant orange on hover */
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #ff9900; /* Amazon vibrant orange for toggle button */
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #ff9900; /* Amazon vibrant orange for icon bars */
+}
+
+.navbar-inverse .navbar-nav > .open > a {
+    background-color: #232f3e; /* Background for dropdown when open */
+}
+
+.navbar-inverse .navbar-nav .navbar-right > li > a {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav .navbar-right > li > a:hover {
+    color: #ff9900; /* Amazon vibrant orange on hover */
+}
+
+.navbar-brand img {
+    height: 30px; /* Adjust this value based on your logo */
+    max-height: 40px; /* Optional: Set a max height to prevent oversized logos */
+}
