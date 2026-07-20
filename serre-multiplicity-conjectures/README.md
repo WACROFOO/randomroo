@@ -53,6 +53,11 @@ one of the major open problems of commutative algebra.
   nonnegativity via de Jong's alterations.
 - [`05-positivity-open.md`](05-positivity-open.md) — the open positivity
   conjecture: known partial results, reductions, and current programs.
+- [`06-attack-notes.md`](06-attack-notes.md) — working notes: complete
+  elementary proof of positivity in dimension $\le 3$ and for height-$1$
+  configurations, the full reduction chain for the open case, and an
+  obstruction analysis of why each existing proof machine fails to give
+  strict positivity.
 - [`REFERENCES.md`](REFERENCES.md) — full bibliography.
 
 ## Honest summary
